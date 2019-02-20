@@ -1,0 +1,147 @@
+DELIFISH PANAMA S,A. 	         	       	                             	     	             	           	Fecha:    	22/01/2019
+REPORTE DIARIO       	         	       	                             	     	             	           	          	          
+Doc. Fiscal          	Pedido   	Cliente	Nombre                       	     	Credito      	Contado    	Devolucion	Anulado   
+50843-22189          	ACI-59098	0520   	CONTINENTAL HOTEL AND CA     	     	622.50       	0.00       	0.00      	.00       
+50843-22190          	ACI-59120	4062   	PAPAISMA, S.A.               	     	0.00         	694.35     	0.00      	.00       
+50843-22191          	ACI-58929	2942   	INVERSIONES LA PAPA, S.A     	     	95.00        	0.00       	0.00      	.00       
+50843-22192          	ACI-59116	2954   	GRILLO COSTA DEL ESTE, S.A.  	     	0.00         	131.58     	0.00      	.00       
+50843-22193          	ACI-59058	2311   	COLLINS RADA GROUP INC       	     	0.00         	75.00      	0.00      	.00       
+50843-22194          	ACI-59093	3846   	ZI MARIA, S.A.               	     	0.00         	110.00     	0.00      	.00       
+50843-22195          	ACI-59119	3340   	BODEGA PROVISER              	     	0.00         	5,402.50   	0.00      	.00       
+50843-22196          	ACI-59128	2594   	CM EL CANGREJO, S.A.         	     	0.00         	100.00     	0.00      	.00       
+50843-22197          	ACI-59129	2536   	EVOLUTION HOTEL CORP.        	     	1,875.00     	0.00       	0.00      	.00       
+50843-22198          	ACI-59070	4006   	CF WORLDWIDE PANAMA, S.A.    	     	0.00         	102.39     	0.00      	.00       
+50843-22199          	ACI-59152	0746   	INVERSIONES INTERACTIVA      	     	339.50       	0.00       	0.00      	.00       
+50843-22200          	ACI-59146	1879   	J.S.H. DE PANAMA, S.A.       	     	0.00         	135.00     	0.00      	.00       
+50843-22201          	ACI-59117	2864   	TABERNA CANAL                	     	84.80        	0.00       	0.00      	.00       
+50843-22202          	ACI-59159	0576   	SOCIEDAD ESPA¥OLA            	     	375.00       	0.00       	0.00      	.00       
+50843-22203          	ACI-59142	3465   	IL TEATRO, S. A.             	     	0.00         	133.00     	0.00      	.00       
+50843-22204          	ACI-59140	9963   	CLUB UNION                   	     	553.00       	0.00       	0.00      	.00       
+50843-22205          	ACI-59155	3804   	ANFA INTERNACIONAL, S.A.     	     	149.25       	0.00       	0.00      	.00       
+50843-22206          	ACI-59163	3433   	HOTELES DEL CARIBE, S. A     	     	460.00       	0.00       	0.00      	.00       
+50843-22207          	ACI-58873	0101   	HOTEL EJECUTIVO              	     	330.00       	0.00       	0.00      	.00       
+50843-22208          	ACI-59132	2403   	MAMPIZZA, S.A.               	     	0.00         	144.69     	0.00      	.00       
+50843-22209          	ACI-59131	2554   	BIZNAGA, S.A.                	     	0.00         	128.69     	0.00      	.00       
+50843-22210          	ACI-59174	2403   	MAMPIZZA, S.A.               	     	0.00         	219.91     	0.00      	.00       
+50843-22211          	ACI-59145	2342   	MIA GIA, S.A.                	     	427.63       	0.00       	0.00      	.00       
+50843-22212          	ACI-59165	3442   	ANGEL JAIME, S.A.            	     	0.00         	135.00     	0.00      	.00       
+50843-22213          	ACI-59156	0381   	RISTORANTE NAPOLI            	     	964.00       	0.00       	0.00      	.00       
+50843-22214          	ACI-59141	0587   	RESTAURANTE ALANDALUS        	     	0.00         	242.90     	0.00      	.00       
+50843-22215          	ACI-59151	2109   	ANFA INTERNACIONAL, S.A.     	     	638.54       	0.00       	0.00      	.00       
+50843-22216          	ACI-59143	2442   	COCONUT GROVE LODGE INC      	     	0.00         	605.00     	0.00      	.00       
+50843-22217          	ACI-59148	3918   	ASU MARE                     	     	0.00         	201.45     	0.00      	.00       
+50843-22218          	ACI-59023	3557   	G&HSA                        	     	0.00         	337.50     	0.00      	.00       
+50843-22219          	ACI-59167	3695   	3412 ACHA COSTA DEL ESTE     	     	240.77       	0.00       	0.00      	.00       
+50843-22220          	ACI-59139	3495   	LA CANTINA T, S.A.           	     	0.00         	185.50     	0.00      	.00       
+50843-22221          	ACI-59183	0574   	RESTAURANTE COSTA AZUL       	     	1,830.00     	0.00       	0.00      	.00       
+50843-22222          	ACI-59177	2406   	EMMA S INVESTMENT,S .A.      	     	0.00         	75.00      	0.00      	.00       
+50843-22223          	ACI-59184	3880   	CAFE MADERO, S.A.            	     	525.00       	0.00       	0.00      	.00       
+50843-22224          	ACI-59199	3280   	RESTAURANTE NOVA             	     	0.00         	657.00     	0.00      	.00       
+50843-22225          	ACI-59200	3280   	RESTAURANTE NOVA             	     	0.00         	328.50     	0.00      	.00       
+50843-22226          	ACI-59187	3540   	FUCHON PANAMA, S. A.         	     	450.00       	0.00       	0.00      	.00       
+50843-22227          	ACI-59185	0574   	RESTAURANTE COSTA AZUL       	     	187.00       	0.00       	0.00      	.00       
+50843-22228          	ACI-59223	2877   	NUEVA COSECHA                	     	0.00         	77.00      	0.00      	.00       
+50843-22229          	ACI-59202	0489   	HOTEL ISLA GRANDE            	     	477.50       	0.00       	0.00      	.00       
+50843-N2086          	ACI-11749	2403   	MAMPIZZA, S.A.               	     	0.00         	0.00       	144.69    	.00       
+50843-N2087          	ACI-11750	2864   	TABERNA CANAL                	     	0.00         	0.00       	4.80      	.00       
+50943-14677          	ACI-59176	2812   	PRICESMART  PANAMA,S .A.     	     	2.79         	0.00       	0.00      	.00       
+50943-14678          	ACI-59203	3247   	CIA. GOLY, S.A. / M. CORONADO	     	342.80       	0.00       	0.00      	.00       
+50943-14679          	ACI-59206	3012   	INMOBILIARIA DON ANTONIO     	     	132.61       	0.00       	0.00      	.00       
+50943-14680          	ACI-59209	0004   	IMPORTADORA RICAMAR, S. A.   	     	175.65       	0.00       	0.00      	.00       
+50943-14681          	ACI-59211	2372   	DISTRIBUIDORA XTRA, S.A.     	     	454.44       	0.00       	0.00      	.00       
+50943-14682          	ACI-59213	0078   	COMPAÑIA GOLY  POLLNETT,     	     	168.84       	0.00       	0.00      	.00       
+50943-14683          	ACI-59218	2011   	RIBA SMITH-COSTA DEL ESTE    	     	7,408.56     	0.00       	0.00      	.00       
+50943-14684          	ACI-59220	0078   	COMPAÑIA GOLY  POLLNETT,     	     	258.73       	0.00       	0.00      	.00       
+50943-14685          	ACI-59222	3940   	IMPORTADORA RICAMAR, S. A.   	     	531.47       	0.00       	0.00      	.00       
+50943-14686          	ACI-59224	0846   	COMPAÑIA GOLYS, S.A.         	     	107.43       	0.00       	0.00      	.00       
+50943-14687          	ACI-59226	2434   	INMOBILIARIA DON ANTONIO     	     	114.42       	0.00       	0.00      	.00       
+50943-14688          	ACI-59227	0021   	INMOBILIARIA DON ANTONIO     	     	305.01       	0.00       	0.00      	.00       
+50943-14689          	ACI-59229	0021   	INMOBILIARIA DON ANTONIO     	     	30.48        	0.00       	0.00      	.00       
+50943-14690          	ACI-59231	3012   	INMOBILIARIA DON ANTONIO     	     	139.70       	0.00       	0.00      	.00       
+50943-14691          	ACI-59232	3012   	INMOBILIARIA DON ANTONIO     	     	56.92        	0.00       	0.00      	.00       
+50943-14692          	ACI-59233	0007   	INMOBILIARIA DON ANTONIO     	     	53.58        	0.00       	0.00      	.00       
+50943-14693          	ACI-59234	3404   	INMOBILIARIA DON ANTONIO     	     	86.96        	0.00       	0.00      	.00       
+50943-14694          	ACI-59237	3345   	INMOBILIARIA DON ANTONIO     	     	243.95       	0.00       	0.00      	.00       
+50943-14695          	ACI-59240	0844   	INMOBILIARIA DON ANTONIO     	     	66.86        	0.00       	0.00      	.00       
+50943-14696          	ACI-59241	0078   	COMPAÑIA GOLY  POLLNETT,     	     	169.80       	0.00       	0.00      	.00       
+50943-14697          	ACI-59242	0079   	EL MACHETAZO, S.A.           	     	125.43       	0.00       	0.00      	.00       
+50943-14698          	ACI-59243	3247   	CIA. GOLY, S.A. / M. CORONADO	     	26.79        	0.00       	0.00      	.00       
+50943-14699          	ACI-59149	1203   	JURMAS, INC                  	     	0.00         	213.93     	0.00      	.00       
+50943-14700          	ACI-59147	2916   	PATAGONIA GRILL              	     	0.00         	257.00     	0.00      	.00       
+50943-14701          	ACI-59157	2774   	EL GALION                    	     	0.00         	110.06     	0.00      	.00       
+50943-14702          	ACI-59153	3494   	RESTAURANTE DRUFCHETTA       	     	0.00         	144.77     	0.00      	.00       
+50943-14703          	ACI-59164	2575   	RESTAURANTE CAFE MET, S.A.   	     	0.00         	77.50      	0.00      	.00       
+50943-14704          	ACI-59169	3433   	HOTELES DEL CARIBE, S. A     	     	145.00       	0.00       	0.00      	.00       
+50943-14705          	ACI-59247	0006   	COMPAÑIA GOLY S,A.           	     	134.46       	0.00       	0.00      	.00       
+50943-14706          	ACI-58703	0563   	PRICESMART PANAMA, S.A.      	     	5,471.68     	0.00       	0.00      	.00       
+50943-14707          	ACI-59250	2011   	RIBA SMITH-COSTA DEL ESTE    	     	609.07       	0.00       	0.00      	.00       
+50943-14708          	ACI-59134	0563   	PRICESMART PANAMA, S.A.      	     	2,922.09     	0.00       	0.00      	.00       
+50943-14709          	ACI-59138	0452   	PRICESMART PANAMA,S .A.      	     	648.57       	0.00       	0.00      	.00       
+50943-14710          	ACI-59136	0452   	PRICESMART PANAMA,S .A.      	     	2,067.45     	0.00       	0.00      	.00       
+50943-14711          	ACI-59144	1409   	VILLA CONTENTA, S.A          	     	424.75       	0.00       	0.00      	.00       
+50943-14712          	ACI-59251	0007   	INMOBILIARIA DON ANTONIO     	     	139.29       	0.00       	0.00      	.00       
+50943-14713          	ACI-58925	2942   	INVERSIONES LA PAPA, S.A     	     	276.50       	0.00       	0.00      	.00       
+50943-14714          	ACI-59181	0665   	RESTAURANTE LA PAPA          	     	592.50       	0.00       	0.00      	.00       
+50943-14715          	ACI-59186	0665   	RESTAURANTE LA PAPA          	     	269.11       	0.00       	0.00      	.00       
+50943-N4021          	ACI-11740	0007   	INMOBILIARIA DON ANTONIO     	     	0.00         	0.00       	116.92    	.00       
+50943-N4022          	ACI-11741	3597   	LOS FAROLES INTERNACIONALES  	     	0.00         	0.00       	104.55    	.00       
+50943-N4023          	ACI-11742	1973   	RESTAURANTE MR. CHEN         	     	0.00         	0.00       	195.00    	.00       
+50943-N4024          	ACI-11743	0070   	INMOBILIARIA DON ANTONIO     	     	0.00         	0.00       	80.45     	.00       
+50943-N4025          	ACI-11744	0844   	INMOBILIARIA DON ANTONIO     	     	0.00         	0.00       	191.11    	.00       
+50943-N4026          	ACI-11745	2635   	REGION DE SALUD PMA. OESTE   	     	0.00         	0.00       	2,424.48  	.00       
+50943-N4027          	ACI-11746	2812   	PRICESMART  PANAMA,S .A.     	     	0.00         	0.00       	698.23    	.00       
+50943-N4028          	ACI-11752	0563   	PRICESMART PANAMA, S.A.      	     	0.00         	0.00       	21.88     	.00       
+50943-N4029          	ACI-11754	0563   	PRICESMART PANAMA, S.A.      	     	0.00         	0.00       	11.68     	.00       
+50943-N4030          	ACI-11756	0452   	PRICESMART PANAMA,S .A.      	     	0.00         	0.00       	2.59      	.00       
+50943-N4031          	ACI-11758	0452   	PRICESMART PANAMA,S .A.      	     	0.00         	0.00       	8.26      	.00       
+50944-12462          	ACI-59150	2812   	PRICESMART  PANAMA,S .A.     	     	11.21        	0.00       	0.00      	.00       
+50944-12463          	ACI-59191	2011   	RIBA SMITH-COSTA DEL ESTE    	     	182.76       	0.00       	0.00      	.00       
+50944-12464          	ACI-59192	0018   	RIBA SMITH - TRANSISTMICA    	     	87.52        	0.00       	0.00      	.00       
+50944-12465          	ACI-59193	0079   	EL MACHETAZO, S.A.           	     	85.71        	0.00       	0.00      	.00       
+50944-12466          	ACI-59194	3247   	CIA. GOLY, S.A. / M. CORONADO	     	223.61       	0.00       	0.00      	.00       
+50944-12467          	ACI-59195	3247   	CIA. GOLY, S.A. / M. CORONADO	     	194.40       	0.00       	0.00      	.00       
+50944-12468          	ACI-59197	0112   	INMOBILIARIA DON ANTONIO     	     	59.29        	0.00       	0.00      	.00       
+50944-12469          	ACI-59196	0007   	INMOBILIARIA DON ANTONIO     	     	77.10        	0.00       	0.00      	.00       
+50944-12470          	ACI-59172	1627   	COMPANIA GOLY, S.A.          	     	37.52        	0.00       	0.00      	.00       
+50944-12471          	ACI-59217	0944   	IMPORTADORA RICAMAR, S. A.   	     	413.91       	0.00       	0.00      	.00       
+50944-12472          	ACI-59219	0018   	RIBA SMITH - TRANSISTMICA    	     	267.09       	0.00       	0.00      	.00       
+50944-12473          	ACI-59221	0079   	EL MACHETAZO, S.A.           	     	119.16       	0.00       	0.00      	.00       
+50944-12474          	ACI-59161	2531   	AQUAKLIN, S.A.               	     	117.90       	0.00       	0.00      	.00       
+50944-12475          	ACI-59225	3436   	TAMEK, S. A. WESTLAND        	     	285.40       	0.00       	0.00      	.00       
+50944-12476          	ACI-59210	0726   	INMOBILIARIA DON ANTONIO     	     	375.90       	0.00       	0.00      	.00       
+50944-12477          	ACI-59230	0726   	INMOBILIARIA DON ANTONIO     	     	71.76        	0.00       	0.00      	.00       
+50944-12478          	ACI-59235	0112   	INMOBILIARIA DON ANTONIO     	     	128.00       	0.00       	0.00      	.00       
+50944-12479          	ACI-59238	0112   	INMOBILIARIA DON ANTONIO     	     	45.38        	0.00       	0.00      	.00       
+50944-12480          	ACI-59244	0026   	INMOBILIARIA DON ANTONIO     	     	254.80       	0.00       	0.00      	.00       
+50944-12481          	ACI-59245	0026   	INMOBILIARIA DON ANTONIO     	     	78.38        	0.00       	0.00      	.00       
+50944-12482          	ACI-58699	0452   	PRICESMART PANAMA,S .A.      	     	5,729.68     	0.00       	0.00      	.00       
+50944-12483          	ACI-59205	1119   	RINCON DE LOS CAMISONES,     	     	0.00         	381.00     	0.00      	.00       
+50944-12484          	ACI-59160	2294   	RESTAURANTE TRIANA           	     	409.81       	0.00       	0.00      	.00       
+50944-12485          	ACI-59201	2803   	RESTAURANTE PINOCHO          	     	0.00         	96.88      	0.00      	.00       
+50944-12486          	ACI-59180	3092   	OCEAN DEPOT, S.A.            	     	0.00         	122.32     	0.00      	.00       
+50944-12487          	ACI-58928	4029   	MEC STORES, S.A.             	     	0.00         	171.60     	0.00      	.00       
+50944-12488          	ACI-59162	3070   	NICOS BEACH - FARALLON       	     	0.00         	130.00     	0.00      	.00       
+50944-12489          	ACI-59198	1408   	DON CHACHO GRILL             	     	0.00         	150.50     	0.00      	.00       
+50944-12490          	ACI-59166	0280   	RESTAURANTE EL CEVICHITO     	     	0.00         	105.00     	0.00      	.00       
+50944-12491          	ACI-59137	0452   	PRICESMART PANAMA,S .A.      	     	2,521.73     	0.00       	0.00      	.00       
+50944-12492          	ACI-59135	0563   	PRICESMART PANAMA, S.A.      	     	656.84       	0.00       	0.00      	.00       
+50944-12493          	ACI-59133	0563   	PRICESMART PANAMA, S.A.      	     	4,209.00     	0.00       	0.00      	.00       
+50944-12494          	ACI-59084	3673   	HOTELERA RH, S.A.            	     	5,469.03     	0.00       	0.00      	.00       
+50944-N4787          	ACI-11747	0285   	VIVERES UNIDOS               	     	0.00         	0.00       	337.83    	.00       
+50944-N4788          	ACI-11748	0434   	HOSPITAL HOGAR DE ESPERANZA  	     	0.00         	0.00       	1,904.39  	.00       
+50944-N4789          	ACI-11751	0452   	PRICESMART PANAMA,S .A.      	     	0.00         	0.00       	22.91     	.00       
+50944-N4790          	ACI-11753	0452   	PRICESMART PANAMA,S .A.      	     	0.00         	0.00       	10.08     	.00       
+50944-N4791          	ACI-11755	0563   	PRICESMART PANAMA, S.A.      	     	0.00         	0.00       	2.62      	.00       
+50944-N4792          	ACI-11757	0563   	PRICESMART PANAMA, S.A.      	     	0.00         	0.00       	16.83     	.00       
+                     	         	       	                             	Total	$ 57,441.07  	$ 12,182.52	$ 6,299.30	$ .00     
+Total de documentos: 	132      	       	                             	     	             	           	          	          
+Factura de ventas    	         	       	                             	     	             	           	          	          
+Contado              	         	       	$ 12,182.52                  	     	             	           	          	          
+Credito              	         	       	$ 57,441.07                  	     	             	           	          	          
+Total                	         	       	$ 69,623.59                  	     	             	           	          	          
+Notas de credito     	         	       	                             	     	             	           	          	          
+Anulación            	         	       	$ 6,052.96                   	     	             	           	          	          
+Descuento de Venta   	         	       	$ 96.85                      	     	             	           	          	          
+Nota de Crédito      	         	       	$ 149.49                     	     	             	           	          	          
+Total                	         	       	$ 6,299.30                   	     	             	           	          	          
+22 de enero de 2019  	         	       	                             	     	Página 1 de 1	           	          	          

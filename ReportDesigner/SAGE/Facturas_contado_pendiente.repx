@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="17.2.4.0" Ref="1" ControlType="ACIWEB_DESKTOP_REPORT.XtraReportSage, ACIWEB_DESKTOP_REPORT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" Name="XtraReportSage" SnapGridSize="25" ReportUnit="TenthsOfAMillimeter" Margins="130, 141, 254, 254" PaperKind="A4" PageWidth="2100" PageHeight="2970" Version="17.2" FilterString="[CustomField2] In (?Tipo) And [Impresora] In (?printer) And [CustomerType] In (?CustomerType)" DataMember="PastDue" DataSource="#Ref-0" Dpi="254">
+  <Parameters>
+    <Item1 Ref="4" Description="Contado o Credito " LookUpSettings="#Ref-2" MultiValue="true" Name="Tipo" />
+    <Item2 Ref="6" Description="Impresora" LookUpSettings="#Ref-5" MultiValue="true" Name="printer" />
+    <Item3 Ref="9" Description="Customer Type" LookUpSettings="#Ref-7" MultiValue="true" Name="CustomerType" Type="#Ref-8" />
+  </Parameters>
+  <CalculatedFields>
+    <Item1 Ref="10" Name="Impresora" FieldType="String" Expression="Substring([InvoiceNo],0, CharIndex('-',[InvoiceNo],0 ))" DataMember="PastDue" />
+  </CalculatedFields>
+  <Bands>
+    <Item1 Ref="11" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="254" Dpi="254" />
+    <Item2 Ref="12" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="254" Dpi="254">
+      <Controls>
+        <Item1 Ref="13" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" SizeF="882,58" LocationFloat="16, 16" Dpi="254" StyleName="PageInfo" Padding="5,5,0,0,254" />
+        <Item2 Ref="14" ControlType="XRPageInfo" Name="pageInfo2" TextFormatString="Página {0} de {1}" TextAlignment="TopRight" SizeF="882,58" LocationFloat="930, 16" Dpi="254" StyleName="PageInfo" Padding="5,5,0,0,254" />
+      </Controls>
+    </Item2>
+    <Item3 Ref="15" ControlType="ReportHeaderBand" Name="reportHeaderBand1" HeightF="97" Dpi="254">
+      <Controls>
+        <Item1 Ref="16" ControlType="XRLabel" Name="label1" Text="Informe de facturas contado pendiente" SizeF="1797,65" LocationFloat="0, 6.99997663" Dpi="254" StyleName="Title" Padding="5,5,0,0,254" />
+      </Controls>
+    </Item3>
+    <Item4 Ref="17" ControlType="GroupHeaderBand" Name="groupHeaderBand3" GroupUnion="WithFirstDetail" Level="1" HeightF="99.68747" Dpi="254">
+      <Controls>
+        <Item1 Ref="18" ControlType="XRPanel" Name="panel1" SizeF="1829,99.68747" LocationFloat="0, 0" Dpi="254" StyleName="DetailCaptionBackground3" Borders="None">
+          <Controls>
+            <Item1 Ref="19" ControlType="XRLabel" Name="label14" Text="Observaciones" TextAlignment="MiddleCenter" SizeF="559,58.4199944" LocationFloat="1270, 41.2675056" Dpi="254" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" BackColor="WhiteSmoke" Padding="5,5,0,0,254">
+              <StylePriority Ref="20" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="21" ControlType="XRLabel" Name="label13" Text="Saldo" TextAlignment="MiddleCenter" SizeF="169.3335,58.4199944" LocationFloat="1100.6665, 41.2675056" Dpi="254" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" BackColor="WhiteSmoke" Padding="5,5,0,0,254">
+              <StylePriority Ref="22" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="23" ControlType="XRLabel" Name="label12" Text="Nombre" TextAlignment="MiddleCenter" SizeF="428.624756,58.4199944" LocationFloat="672.041748, 41.2675056" Dpi="254" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" BackColor="WhiteSmoke" Padding="5,5,0,0,254">
+              <StylePriority Ref="24" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="25" ControlType="XRLabel" Name="label11" Text="Cliente" TextAlignment="MiddleCenter" SizeF="164.041687,58.4199944" LocationFloat="508, 41.2675056" Dpi="254" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" BackColor="WhiteSmoke" Padding="5,5,0,0,254">
+              <StylePriority Ref="26" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="27" ControlType="XRLabel" Name="label10" Text="No. Factura" TextAlignment="MiddleCenter" SizeF="254,58.42" LocationFloat="254, 41.2675056" Dpi="254" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" BackColor="WhiteSmoke" Padding="5,5,0,0,254">
+              <StylePriority Ref="28" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+            </Item5>
+            <Item6 Ref="29" ControlType="XRLabel" Name="label9" Text="Fecha" TextAlignment="MiddleCenter" SizeF="254,58.42" LocationFloat="0, 41.2675056" Dpi="254" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" BackColor="WhiteSmoke" Padding="5,5,0,0,254">
+              <StylePriority Ref="30" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+            </Item6>
+          </Controls>
+          <StylePriority Ref="31" UseBorders="false" />
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="32" ControlType="DetailBand" Name="detailBand1" HeightF="58.42" Dpi="254">
+      <Controls>
+        <Item1 Ref="33" ControlType="XRLabel" Name="label8" Text="label8" TextAlignment="MiddleLeft" SizeF="559,58.42" LocationFloat="1270, 0" Dpi="254" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="34" Expression="[Comment]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="35" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="36" ControlType="XRLabel" Name="label7" TextFormatString="{0:$0.00}" Text="label7" TextAlignment="MiddleRight" SizeF="169.3335,58.42" LocationFloat="1100.6665, 0" Dpi="254" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="37" Expression="[Amount]-[AmountPaid]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="38" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="39" ControlType="XRLabel" Name="label6" Text="label6" TextAlignment="MiddleCenter" SizeF="428.624756,58.42" LocationFloat="672.041748, 0" Dpi="254" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="40" Expression="[BillTo]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="41" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="42" ControlType="XRLabel" Name="label5" Text="label5" TextAlignment="MiddleCenter" SizeF="164.041687,58.42" LocationFloat="508, 0" Dpi="254" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="43" Expression="[IdCustomer]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="44" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="45" ControlType="XRLabel" Name="label4" Text="label4" TextAlignment="MiddleCenter" SizeF="254,58.42" LocationFloat="254, 0" Dpi="254" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="46" Expression="[InvoiceNo]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="47" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="48" ControlType="XRLabel" Name="label3" Text="label3" TextAlignment="MiddleCenter" SizeF="254,58.42" LocationFloat="0, 0" Dpi="254" Padding="5,5,0,0,254">
+          <ExpressionBindings>
+            <Item1 Ref="49" Expression="[InvoiceDate]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="50" UseTextAlignment="false" />
+        </Item6>
+      </Controls>
+    </Item5>
+    <Item6 Ref="51" ControlType="GroupFooterBand" Name="groupFooterBand1" GroupUnion="WithLastDetail" HeightF="180.624954" Dpi="254">
+      <Controls>
+        <Item1 Ref="52" ControlType="XRLabel" Name="label16" Text="Total de Facturas" TextAlignment="MiddleLeft" SizeF="428.624756,58.42" LocationFloat="672.041748, 5.00001764" Dpi="254" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="5,5,0,0,254">
+          <StylePriority Ref="53" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="54" ControlType="XRLabel" Name="label15" TextFormatString="{0:$0.00}" Text="label7" TextAlignment="MiddleRight" SizeF="169.3335,58.42" LocationFloat="1100.6665, 5" Dpi="254" Padding="5,5,0,0,254">
+          <Summary Ref="55" Running="Report" />
+          <ExpressionBindings>
+            <Item1 Ref="56" Expression="sumSum([Amount]-[AmountPaid])" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="57" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="58" ControlType="XRLabel" Name="label2" SizeF="1829,5" LocationFloat="0, 0" Dpi="254" StyleName="GroupCaption3" Padding="5,5,0,0,254" Borders="None">
+          <StylePriority Ref="59" UseBorders="false" />
+        </Item3>
+      </Controls>
+    </Item6>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="60" Name="Title" BorderStyle="Inset" Font="Tahoma, 14pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="61" Name="GroupCaption3" BorderStyle="Inset" Padding="6,2,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,228,228,228" BackColor="255,137,137,137" BorderColor="White" Sides="Bottom" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item3 Ref="62" Name="GroupData3" BorderStyle="Inset" Padding="6,2,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="White" BackColor="255,137,137,137" BorderColor="White" Sides="Bottom" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item4 Ref="63" Name="DetailCaption3" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item5 Ref="64" Name="DetailData3" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt" ForeColor="Black" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item6 Ref="65" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item7 Ref="66" Name="DetailCaptionBackground3" BorderStyle="Inset" BackColor="Transparent" BorderColor="255,206,206,206" Sides="Top" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="2" />
+    <Item8 Ref="67" Name="PageInfo" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ReportPrintOptions Ref="68" DetailCountOnEmptyDataSource="12" />
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v17.2" Name="objectDataSource1" Base64="PE9iamVjdERhdGFTb3VyY2U+PE5hbWU+b2JqZWN0RGF0YVNvdXJjZTE8L05hbWU+PERhdGFTb3VyY2UgVHlwZT0iQUNJV0VCX0RFU0tUT1BfUkVQT1JULkRiUXVlcnlTYWdlLCBBQ0lXRUJfREVTS1RPUF9SRVBPUlQsIFZlcnNpb249MS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiAvPjxEYXRhTWVtYmVyPlNldFBhc3REdWU8L0RhdGFNZW1iZXI+PC9PYmplY3REYXRhU291cmNlPg==" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 Ref="2" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v17.2.Core" DataSource="#Ref-0" DataMember="PastDue" ValueMember="CustomField2" DisplayMember="CustomField2" />
+    <Item2 Ref="5" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v17.2.Core" DataSource="#Ref-0" DataMember="PastDue" ValueMember="Impresora" DisplayMember="Impresora" />
+    <Item3 Ref="7" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v17.2.Core" DataSource="#Ref-0" DataMember="PastDue" ValueMember="CustomerType" DisplayMember="CustomerType" />
+    <Item4 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v17.2" Ref="8" Content="System.Int32" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

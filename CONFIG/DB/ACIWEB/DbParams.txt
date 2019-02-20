@@ -1,0 +1,6 @@
+107.180.12.15
+ACIWEB_grupocmg
+aciweb_root
+admin123$
+0
+INITIAL

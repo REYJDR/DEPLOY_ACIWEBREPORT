@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="17.2.4.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReportAciweb" Margins="18, 21, 45, 100" PageWidth="850" PageHeight="1100" Version="17.2" FilterString="[DOCTYPE] = 'NC' And [PRINTER] In (?Impresora)" DataSource="#Ref-0">
+  <Parameters>
+    <Item1 Ref="4" Description="Impresora Fiscal" LookUpSettings="#Ref-2" MultiValue="true" Name="Impresora" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="5" ControlType="DetailBand" Name="Detail" HeightF="33.3333321" TextAlignment="TopLeft" Padding="0,0,0,0,100">
+      <Controls>
+        <Item1 Ref="6" ControlType="XRPanel" Name="panel1" SizeF="810.999939,25" LocationFloat="0, 0">
+          <Controls>
+            <Item1 Ref="7" ControlType="XRLabel" Name="label7" Text="label7" TextAlignment="MiddleLeft" SizeF="142.583313,23" LocationFloat="658.4166, 2.000014" Font="Times New Roman, 8pt" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="8" Expression="Iif([TERMINO]='','Sin motivo',[TERMINO] )" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="9" UseFont="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="10" ControlType="XRLabel" Name="label6" Text="label6" TextAlignment="MiddleLeft" SizeF="251.582886,23" LocationFloat="342.25, 2.000014" Font="Times New Roman, 8pt" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="11" Expression="[NOMBRE]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="12" UseFont="false" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="13" ControlType="XRLabel" Name="label5" TextFormatString="{0:dd/MM/yyyy}" Text="label5" TextAlignment="MiddleLeft" SizeF="57.2916565,23" LocationFloat="282.291626, 0" Font="Times New Roman, 8pt" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="14" Expression="[FECHA]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="15" UseFont="false" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="16" ControlType="XRLabel" Name="label4" Text="label4" TextAlignment="MiddleLeft" SizeF="85.41661,23" LocationFloat="196.875, 0" Font="Times New Roman, 8pt" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="17" Expression="[CLIENTE]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="18" UseFont="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="19" ControlType="XRLabel" Name="label3" Text="label3" TextAlignment="MiddleLeft" SizeF="80.20834,23" LocationFloat="116.666664, 0" Font="Times New Roman, 8pt" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="20" Expression="[PEDIDO]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+            </Item5>
+            <Item6 Ref="22" ControlType="XRLabel" Name="label2" Text="label2" TextAlignment="MiddleLeft" SizeF="116.666664,23" LocationFloat="0, 0" Font="Times New Roman, 8pt, style=Bold" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="23" Expression="[DOCUMENTO_FISCAL]" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="24" UseFont="false" UseTextAlignment="false" />
+            </Item6>
+            <Item7 Ref="25" ControlType="XRLabel" Name="label10" TextFormatString="{0:#,###.00}" Text="label8" TextAlignment="MiddleLeft" SizeF="64.5834961,23" LocationFloat="593.833, 2.000014" Font="Times New Roman, 8pt" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="26" Expression="Iif([TERMINO]&lt;&gt;'Credito'And [TERMINO]&lt;&gt;'Contado' ,[MONTO] , '0.00' )" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="27" UseFont="false" UseTextAlignment="false" />
+            </Item7>
+          </Controls>
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="28" ControlType="TopMarginBand" Name="TopMargin" HeightF="44.7916679" TextAlignment="TopLeft" Padding="0,0,0,0,100" />
+    <Item3 Ref="29" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="100" TextAlignment="TopLeft" Padding="0,0,0,0,100">
+      <Controls>
+        <Item1 Ref="30" ControlType="XRPageInfo" Name="xrPageInfo1" PageInfo="DateTime" SizeF="313,23" LocationFloat="0, 6.00001" StyleName="PageInfo" Padding="2,2,0,0,100" />
+        <Item2 Ref="31" ControlType="XRPageInfo" Name="xrPageInfo2" TextFormatString="Página {0} de {1}" TextAlignment="TopRight" SizeF="313,23" LocationFloat="482.3748, 6.00001" StyleName="PageInfo" Padding="2,2,0,0,100" />
+      </Controls>
+    </Item3>
+    <Item4 Ref="32" ControlType="ReportHeaderBand" Name="reportHeaderBand1" HeightF="77.0833359">
+      <Controls>
+        <Item1 Ref="33" ControlType="XRPanel" Name="panel2" SizeF="810.999939,31.2499962" LocationFloat="0, 45.8333321" BackColor="WhiteSmoke">
+          <Controls>
+            <Item1 Ref="34" ControlType="XRLabel" Name="label8" Text="Motivo" TextAlignment="MiddleCenter" SizeF="152.583313,23.0000114" LocationFloat="658.4166, 8.249982" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="35" UseFont="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="36" ControlType="XRLabel" Name="label21" Text="Monto" TextAlignment="MiddleCenter" SizeF="64.5834961,22.9999943" LocationFloat="593.8331, 7.29166651" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="37" UseFont="false" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="38" ControlType="XRLabel" Name="label18" Text="Nombre" TextAlignment="MiddleCenter" SizeF="251.582886,23.00002" LocationFloat="342.25, 7.29166651" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="39" UseFont="false" UseTextAlignment="false" />
+            </Item3>
+            <Item4 Ref="40" ControlType="XRLabel" Name="label17" Text="Fecha" TextAlignment="MiddleCenter" SizeF="57.2916565,23.0000019" LocationFloat="282.2916, 7.29166651" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="41" UseFont="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="42" ControlType="XRLabel" Name="label16" Text="Id Cliente" TextAlignment="MiddleCenter" SizeF="85.41661,22.9999981" LocationFloat="196.875, 7.29166651" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="43" UseFont="false" UseTextAlignment="false" />
+            </Item5>
+            <Item6 Ref="44" ControlType="XRLabel" Name="label15" Text="Pedido" TextAlignment="MiddleCenter" SizeF="80.20834,23.0000019" LocationFloat="116.666664, 7.29166651" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="45" UseFont="false" UseTextAlignment="false" />
+            </Item6>
+            <Item7 Ref="46" ControlType="XRLabel" Name="label1" Text="Doc. Fiscal" TextAlignment="MiddleCenter" SizeF="116.666664,23.0000019" LocationFloat="0, 7.29166651" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="47" UseFont="false" UseTextAlignment="false" />
+            </Item7>
+          </Controls>
+          <StylePriority Ref="48" UseBackColor="false" />
+        </Item1>
+        <Item2 Ref="49" ControlType="XRLabel" Name="xrLabel1" Text="DELIFISH : Reporte de devoluciones" SizeF="767.1667,26" LocationFloat="0, 0" StyleName="Title" Font="Tahoma, 15.75pt, style=Bold, charSet=0" BackColor="WhiteSmoke" Padding="2,2,0,0,100">
+          <StylePriority Ref="50" UseFont="false" UseBackColor="false" />
+        </Item2>
+      </Controls>
+    </Item4>
+    <Item5 Ref="51" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="32.29168">
+      <GroupFields>
+        <Item1 Ref="52" FieldName="TERMINO" />
+      </GroupFields>
+      <Controls>
+        <Item1 Ref="53" ControlType="XRPanel" Name="panel3" SizeF="259.374969,32.2916679" LocationFloat="0, 0" BackColor="WhiteSmoke">
+          <Controls>
+            <Item1 Ref="54" ControlType="XRLabel" Name="label24" Text="label24" TextAlignment="MiddleLeft" SizeF="195.833328,31.25" LocationFloat="0, 0" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="55" Expression="Iif([TERMINO]='','Sin motivo',[TERMINO] )" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="56" UseFont="false" UseTextAlignment="false" />
+            </Item1>
+          </Controls>
+          <StylePriority Ref="57" UseBackColor="false" />
+        </Item1>
+      </Controls>
+    </Item5>
+    <Item6 Ref="58" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="26.0833111">
+      <Controls>
+        <Item1 Ref="59" ControlType="XRPanel" Name="panel5" SizeF="395.625061,24.9999676" LocationFloat="405.374878, 0" BackColor="WhiteSmoke">
+          <Controls>
+            <Item1 Ref="60" ControlType="XRLabel" Name="label23" Text="Total devoluciones" TextAlignment="MiddleCenter" SizeF="176.541382,23" LocationFloat="213.45845, 0" Font="Times New Roman, 11.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="61" UseFont="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="62" ControlType="XRLabel" Name="label11" TextFormatString="{0:$ #,###.00}" Text="label8" TextAlignment="MiddleRight" SizeF="76.04169,23" LocationFloat="137.416779, 0" Font="Times New Roman, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <Summary Ref="63" Running="Report" />
+              <ExpressionBindings>
+                <Item1 Ref="64" Expression="sumSum(Iif([TERMINO]&lt;&gt;'Credito' And [TERMINO]&lt;&gt;'Contado',[MONTO] , '0.00' ))" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="65" UseFont="false" UseTextAlignment="false" />
+            </Item2>
+          </Controls>
+          <StylePriority Ref="66" UseBackColor="false" />
+        </Item1>
+      </Controls>
+    </Item6>
+    <Item7 Ref="67" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="27.083334">
+      <Controls>
+        <Item1 Ref="68" ControlType="XRPanel" Name="panel4" SizeF="395.625061,24.9999676" LocationFloat="405.374878, 2.0833652" BackColor="WhiteSmoke">
+          <Controls>
+            <Item1 Ref="69" ControlType="XRLabel" Name="label9" Text="label9" TextAlignment="MiddleLeft" SizeF="183.833313,23" LocationFloat="130.124847, 0" Font="Times New Roman, 9.75pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <ExpressionBindings>
+                <Item1 Ref="70" Expression="Iif([TERMINO]='','Sin motivo',[TERMINO] )" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="71" UseFont="false" UseTextAlignment="false" />
+            </Item1>
+            <Item2 Ref="72" ControlType="XRLabel" Name="label28" TextFormatString="{0:$ #,###.00}" Text="label8" TextAlignment="MiddleRight" SizeF="76.04169,23" LocationFloat="313.95816, 0" Font="Times New Roman, 9pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <Summary Ref="73" Running="Group" />
+              <ExpressionBindings>
+                <Item1 Ref="74" Expression="sumSum(Iif([TERMINO]&lt;&gt;'Credito' And [TERMINO]&lt;&gt;'Contado',[MONTO] , '0.00' ))" PropertyName="Text" EventName="BeforePrint" />
+              </ExpressionBindings>
+              <StylePriority Ref="75" UseFont="false" UseTextAlignment="false" />
+            </Item2>
+            <Item3 Ref="76" ControlType="XRLabel" Name="label29" Text="Total" TextAlignment="MiddleCenter" SizeF="53.1249657,23" LocationFloat="76.999855, 0" Font="Times New Roman, 11.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+              <StylePriority Ref="77" UseFont="false" UseTextAlignment="false" />
+            </Item3>
+          </Controls>
+          <StylePriority Ref="78" UseBackColor="false" />
+        </Item1>
+      </Controls>
+    </Item7>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="79" Name="Title" BorderStyle="Inset" Font="Tahoma, 14pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="80" Name="DetailCaption3" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item3 Ref="81" Name="DetailData3" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt" ForeColor="Black" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item4 Ref="82" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="83" Name="DetailCaptionBackground3" BorderStyle="Inset" BackColor="Transparent" BorderColor="255,206,206,206" Sides="Top" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="2" />
+    <Item6 Ref="84" Name="PageInfo" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="85" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v17.2" Name="objectDataSource1" Base64="PE9iamVjdERhdGFTb3VyY2U+PE5hbWU+b2JqZWN0RGF0YVNvdXJjZTE8L05hbWU+PC9PYmplY3REYXRhU291cmNlPg==" />
+    <Item2 Ref="0" ObjectType="DevExpress.DataAccess.ObjectBinding.ObjectDataSource,DevExpress.DataAccess.v17.2" Name="objectDataSource2" Base64="PE9iamVjdERhdGFTb3VyY2U+PE5hbWU+b2JqZWN0RGF0YVNvdXJjZTI8L05hbWU+PERhdGFTb3VyY2UgVHlwZT0iQUNJV0VCX0RFU0tUT1BfUkVQT1JULkRiUXVlcnlBY2l3ZWIsIEFDSVdFQl9ERVNLVE9QX1JFUE9SVCwgVmVyc2lvbj0xLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiIC8+PERhdGFNZW1iZXI+U2V0RGlhcnlSZXBvcnQ8L0RhdGFNZW1iZXI+PC9PYmplY3REYXRhU291cmNlPg==" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 Ref="2" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v17.2.Core" DataSource="#Ref-0" DataMember="JournalReport" ValueMember="PRINTER" DisplayMember="PRINTER" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>
