@@ -1,2 +1,0 @@
-C:\sage\Peachtree\Company
-True;delfissa;DELIFISHSA2018;Peachtree;admin123;REINALDODAO87E8
