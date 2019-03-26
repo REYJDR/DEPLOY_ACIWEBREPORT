@@ -4,7 +4,7 @@
   <description asmv2:iconFile="apcon_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="ACIWEB_DESKTOP_REPORT" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="ACIWEB_DESKTOP_REPORT" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="ACIWEB_DESKTOP_REPORT.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACIWEB_DESKTOP_REPORT.exe" size="1060352">
-      <assemblyIdentity name="ACIWEB_DESKTOP_REPORT" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACIWEB_DESKTOP_REPORT.exe" size="1050624">
+      <assemblyIdentity name="ACIWEB_DESKTOP_REPORT" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OJZx9+EJCZzmHWQFkxjcgipVG5q0bom4XJNI34xGcMk=</dsig:DigestValue>
+        <dsig:DigestValue>N1z35st62namDmj71NtZ02jjuUdUmhI2j5ENT/jn8SA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
